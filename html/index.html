@@ -3,174 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>list types</title>
+    <link rel="stylesheet" href="../Assets/css/style.css">
+    <title>HTML TUTORIAL</title>
 </head>
 <body>
-    
-    <!-- <ul>
-        <li>Shahzaib </li>
-        <li>Faizan </li>
-        <li>Abdullah </li>
-        <li>Ahmed </li>
-        <li>Haris</li>
-    </ul>
+
+    <!-- Date: 07-03-2025 --> 
+    <!-- Topic: Basic Tags (H1-H6, p, pre, br, hr, div,) -->
+     <h1 style="text-align: center;">BASIC TAGS</h1>
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <p>Lorem ipsum dolor sit, <br> amet consectetur adipisicing elit.</p>
+    <pre>Lorem ipsum dolor sit             amet consectetur adipisicing elit.
+        Provident vel totam dicta sequi ab doloremque non, </pre>
+    <hr/>
+
+    <!-- Quick Test Start -->
+    <div>
+        <h1 style="text-align: center;">QUICK TEST</h1>
+        <h2>What is Programming?</h2>
+        <p>
+            Programming languages are the backbone of modern technology, enabling developers to create software, websites, and applications. These languages consist of sets of instructions that computers can understand and execute.
+        </p>
+        <h3>Fields of Programming</h3>
+        <ol>
+            <li>Web Development - HTML, CSS, JavaScript, PHP, Python</li>
+            <li>Mobile App Development - Swift (iOS), Kotlin, Java (Android), React Native</li>
+            <li>Game Development - C++, C#, Unity, Unreal Engine</li>
+            <li>Data Science & Machine Learning - Python, R, SQL, TensorFlow</li>
+            <li>Cybersecurity - Python, C, JavaScript, Assembly</li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Inline and Block-Level Elements</h2>
+        <p>In web development, HTML elements are classified into two main categories:</p>
+            
+        <pre>Inline Elements                                          Block Elements 
+These elements do not start on a new line                These elements start on a new line and take up the full 
+and only occupy as much width as necessary.              width available. Examples include:
+                                                    
+        </pre>
+                    
+    </div>
+    <div>
+        <h2>Basic HTML Tags</h2>
+        <p>Here are some fundamental HTML tags used in web development:</p>
+        <ol>
+            <li>HTML tag</li>
+            <li>Head Tag</li>
+            <li>Title Tag</li>
+            <li>Body tag</li>
+            <li>h1 to h6 tags</li>
+            <li>p tag</li>
+            <li>a tag</li>
+            <li>img tag</li>
+            <li>ul li tags</li>
+            <li>table tag</li>
+        </ol>
+    </div>
+    <!-- Quick Test End -->
+
+    <!-- 10-03-2025  -->
+    <!-- Topic: List Types, Table Tag, Media Tags, BlockQuote, Form -->
     <ol>
-        <li>Shahzaib </li>
-        <li>Faizan </li>
-        <li>Abdullah </li>
-        <li>Ahmed </li>
-        <li>Haris</li>
-    </ol> -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+    </ol>
 
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+    </ul>
+    <hr>
+    <h1 style="text-align: center;">TABLE TAG (Horizontal & Vertical Layout)</h1>
+    <div style="display: inline-flex;">
+        <div style="width: 50%;">
+            <table border="1">
+                <thead>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Email</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Alice</td>
+                        <td>HR</td>
+                        <td>alice@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bob Smith</td>
+                        <td>IT</td>
+                        <td>bob@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Charlie Brown</td>
+                        <td>Marketing Head</td>
+                        <td>charlie@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>David</td>
+                        <td>Finance Head</td>
+                        <td>david@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Emma Davis</td>
+                        <td>Sales Head</td>
+                        <td>emma@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div style="width: 50%;">
+            <table border="1">
+                <tr>
+                    <th>ID</th>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <td>Alice</td>
+                    <td>Bob Smith</td>
+                    <td>Charlie Brown</td>
+                    <td>David</td>
+                    <td>Emma Davis</td>
+                </tr>
+                <tr>
+                    <th>Department</th>
+                    <td>HR</td>
+                    <td>IT</td>
+                    <td>Marketing Head</td>
+                    <td>Finance Head</td>
+                    <td>Sales Head</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>alice@gmail.com</td>                        
+                    <td>bob@gmail.com</td>                        
+                    <td>charlie@gmail.com</td>                        
+                    <td>david@gmail.com</td>                        
+                    <td>emma@gmail.com</td>                        
+                </tr>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <h1 style="text-align: center;">BLOCKQUOTE TAG</h1>
+    <blockquote cite="https://blog.hubspot.com/?hubs_content=blog.hubspot.com/&hubs_content-cta=null">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut magnam possimus vitae neque expedita delectus, cum amet fugiat laboriosam, corrupti et officia repellendus facilis, perspiciatis id. Veniam placeat amet, quas ut, natus veritatis quidem eveniet molestias omnis, exercitationem soluta atque minima cupiditate quasi est explicabo in similique facilis minus eligendi ullam velit! Voluptatum, quia non assumenda animi ut nulla veritatis, nihil excepturi dicta iusto dolor doloribus ad ipsa laudantium saepe aut id ipsam architecto deserunt esse debitis ex in adipisci temporibus? Temporibus quisquam totam rerum voluptates nam distinctio, vel eius neque aut voluptatum esse ad, dolorem, sequi autem nemo repellendus.
+    </blockquote>
+    <hr>
+    <h1 style="text-align: center;">IMAGE TAG</h1>
+    <img src="../Assets/images/IMG_4454.JPG" width="300px" alt="Logo">
+    <img src="https://imuhammadfaizan.site/wp-content/plugins/ambrox-core/assets/img/2.png" width="300px" alt="">
+    <hr>
+    <!-- 11-03-2025 -->
+    <!-- Topic: Media Tags, Form Tag, Input Types -->
+    <div>
+        <H1 style="text-align: center;">AUDIO, VIDEO, IFRAME TAG</H1>
+        <audio controls autoplay>
+            <source src="horse.mp3" type="audio/mpeg">
+            <source src="horse.ogg" type="audio/ogg">
+        </audio>
 
+        <video  width="33%" height="230px" muted autoplay loop poster="./Assets/images/IMG_4454.JPG">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        
+        <iframe width="33%" height="230px" src="https://www.youtube.com/embed/33jjbAuNv9c?si=IyPt8PYnPZXULB3p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <hr><br>
 
-<!-- 13-03-2025 -->
+    <h1 style="text-align: center;">FORM TAG, INPUT TYPES</h1>
+    <form action="">
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter Your Name"> <br> <br>
+        <label for="">Email</label>
+        <input type="email"> <br> <br>
+        <label for="">Password</label>
+        <input type="password"> <br> <br>
+        <label for="">Phone Number</label>
+        <input type="tel"> <br> <br>
+        <label for="">Number</label>
+        <input type="number"> <br> <br>
+        <label for="">Date</label>
+        <input type="date"> <br> <br>
+        <label for="">Month</label>
+        <input type="month"> <br><br>
+        <label for="">Time</label>
+        <input type="time"> <br><br>
+        <label for="">Date & Time</label>
+        <input type="datetime-local"> <br><br>
+        <label for="">Week</label>
+        <input type="week"> <br><br>
 
-<!-- <form action="">
-<input type="radio" name="radio" id="radio 1">
-<label for="radio"> radio 1 </label>  <br>
+    <!-- 13-03-2025 -->
+    <!-- Topic: Remaining Input Types, Sub Tag, Sup Tag -->
 
-<input type="radio" name="radio" id="radio 2" >
-<label for=""> radio 2 </label> <br>
+        <label for="">Range</label>
+        <input type="range" step="20"> <br> <br>
 
-<label for=""> range</label>
-<input type="range" name="range" > <br>
+        <label for="">Gender</label>
+        <input type="radio" name="radio" value="radio" id="radio1">
+        <label for="radio1">Radio 1</label>
+        <input type="radio" name="radio" value="radio" id="radio2">
+        <label for="radio2">Radio 2</label>
+        <br> <br>
+        <input type="checkbox" name="checkbox" id="checkbox1">
+        <label for="checkbox1">Checkbox 1</label>
+        <input type="checkbox" name="checkbox" id="checkbox2">
+        <label for="checkbox2">Checkbox 2</label><br> <br>
+        <label for="">Search</label>
+        <input type="search"> <br><br>
+        <label for="">URL</label>
+        <input type="url"> <br><br>
+        <label for="">image</label>
+        <input type="image"> <br><br>
+        <label for="">Color</label>
+        <input type="color"> <br><br>
+        <label for="">File</label>
+        <input type="file" accept="images/*"> <br><br>
+        <label for="">Hidden</label>
+        <input type="hidden"> <br><br>
+        <label for="">Reset</label>
+        <input type="reset"> <br><br>
+        <label for="">Submit</label>
+        <input type="submit"> <br><br>
+        <textarea name="" id="" rows="5"  placeholder="It's a TextArea"></textarea> <br><br>
 
-<label for="checkbox">checkbox</label>
-<input type="checkbox" name="checkbox"> <br>
+        <label for="">Advance Web Course Outline</label>
+        <select name="" id="">
+                <option value="">Select</option>
+            <optgroup label="Front-End Languages">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">BootStrap</option>
+                <option value="">JS</option>
+                <option value="">React Js</option>
+            </optgroup>
+            <optgroup label="Back-End Languages">
+                <option value="">PHP</option>
+                <option value="">Laravel</option>
+            </optgroup>
+            <optgroup label="Database">
+                <option value="">MySQL</option>
+            </optgroup>
+        </select> &nbsp;&nbsp;&nbsp;&nbsp;
 
-<label for="checkbox">checkbox2</label>
-<input type="checkbox" name="checkbox" id="checkbox"> <br>
+        <label for="">Data List</label>
+        <input list="Data List">
+        <datalist id="Data List">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="BootStrap">
+                <option value="JS">
+                <option value="React JS">
+                
+        </datalist> <br><br>
 
-<label for="datetime-local">DATE AND TIME</label>
-<input type="datetime-local" name="datetime-local" id="datetime-local"> <br>
-</form> -->
+        <fieldset>
+            <legend>STUDENT'S FORM</legend> <br>
+            <label for="">Name</label>
+            <input type="text" placeholder="Enter your Name">
+            <label for="">Phone</label>
+            <input type="tel" placeholder="Enter your Phone"> <br><br>
+            <label for="">Email</label>
+            <input type="email" placeholder="Enter your Email"> 
+            <label for="">Date of Birth</label>
+            <input type="date"> <br> <br>
+            <label for="">Age</label>
+            <input type="text" placeholder="Enter your Age">
+            <label for="">Gender:</label>
+            <input type="radio" name="gender" value="radio" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="radio" id="female">
+        <label for="female">Female</label>
+        </fieldset> <br><br>
+        <input type="submit" value="Save Form">
+        <input type="reset"  value="Reset" >
+    </form>
+    <hr>
+    <h1 style="text-align: center;">POWER & BASE TAGS</h1>
+    <span>H<sub>2</sub>O</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span>X<sup>2</sup></span>
+    
+    <!-- HTML HAS DONE > 13-03-2025 -->
 
-
-<h1 style="text-align: center;"> Media Tags</h1>
-<video controls loop muted autoplay  width="300px">
-
-    <source src="C:\Users\M. Shahzaib\Desktop\WhatsApp Video 2025-01-13 at 22.07.11_ea9f1d20.mp4">
-</video>  
-><br>
-<!-- list types  -->
- <h1 style="text-align: center;">Order and Unorderd List</h1> 
-<ol>
-    <li>task 1</li>
-    <li>task 2</li>
-    <li>task 3</li>
-    <li>task 4</li>
-    <li>task 5</li>
-    <li>task 6</li>
-</ol>
-<ul>
-    <li>task 1</li>
-    <li>task 2</li>
-    <li>task 3</li>
-    <li>task 4</li>
-    <li>task 5</li>
-    <li>task 6</li>
-</ul>
-</label>
-
-<fieldset>
-    <legend> Sign In Form </legend>
-
- <label for="">phone</label>
- <input type="tel"  required> <br> <br>
-<label for=""> number</label>
-<input type="number" name="number" id="number"> <br> <br>
-
-<label for=""> URL</label>
-<input type="url" > <br> <br>
-
-<label for="">search </label>
-<input type="search" > <br> <br>
-<label for=""> range</label>
-<input type="range" min="100" max="200"  value="150" step="10"> <br> <br>
-<label for=""> Gender</label>
-<input type="radio" name="gender" id="male">
-<label for="male">Male </label>
-<input type="radio" name="gender" id="female">
-<label for="female">Female </label>
-</fieldset>
-<br> <br>
-
-
-
-
-<select name="" id="" >
-
-    <optgroup label="Choose Your City "> 
-    <option value=""> Choose a City </option>
-    <option value="" selected> lahroe </option>
-    <option value="">fsd </option>
-    <option value=""> isb</option>
-</optgroup>
-</select> <br> <br>
-
-
-<label for=""> data list </label>
-
-<input list="City">
-
-<datalist id="City">
-
-    <option value="fsd">
-    <option value="lhr">
-    <option value="isb">
-    <option value="multan">
-    <option value="quetta">
-</datalist> <br> <br>
-
- <input type="file" >
-
-
-
-<input type="reset"> <br>
-<input type="submit"> <br>
-
-
-
-<!-- self Practice -->
-
-<label for=""  > Select Your City  </label>
-
-<input list="city" placeholder="Select">
-<datalist id="city">
-<option value="fsd">
-<option value="quetta">
-<option value="islamabad">
-<option value="karachi">
-<option value="multan">
-<option value="lahore">
-
-
-</datalist> <br>
- <br>
-<select >
-
-
-    <option value="">Choose Your City </option>    
-    <option value="">multan </option>    
-    <option value="">peshawar </option>    
-    <option value="">Quetta  </option>    
-    <option value="">Faisalabad </option>    
-
-</select> <br>
-<br>
-
-
-<input  type="file" multiple accept="image/jpg" value=""> <br>
-<input  type="file" multiple accept="image/webp" value=""> <br>
-<input  type="file" multiple accept="video/*" value=""> <br>
-<input  type="file" multiple accept="video/mp4" value=""> <br>
-<input  type="file" multiple accept="audio/mp3" value=""> <br>
-
-
-
-
-
-
+    <!-- 14-03-2025 -->
+    <!-- Topic: CSS Styling Methods, (Inline, Internal, External),Selectors, Some Text's related styling -->
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum excepturi expedita inventore numquam sit tempora neque explicabo velit. Facilis quam totam error deleniti tempore maiores maxime neque et harum?</p>
 </body>
 </html>
