@@ -4,25 +4,53 @@
 }
 .main-css{
     background-image: linear-gradient(to left, red, orange, indigo);
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    box-shadow: 10px 0px 10px 0px black;
+    padding:20px 0px  20px;
     
     
 }
-.para{
+.main-css p{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     color: whitesmoke;
     font-style: italic;
     /* font-weight: bolder; */
-    text-align: center;    
+    text-align: center;   
+    padding-bottom: 20px; 
+    padding-top: 20px;
     
 }
-.head-css{
+.main-css h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size:30px;
     color: black;
     color: whitesmoke;
     text-decoration: underline;
-    
+}
+
+.box-model{
+    border: 6px solid black;
+    border-radius: 6px;
+    background-image: linear-gradient(to left , indigo , orange , red);
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 30px;
+    padding-top: 54px;
+    padding-bottom: 24px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;    
+    box-shadow: 8px 0px 8px 0px black;
+}
+.box-model h1{
+    padding-bottom: 8px;
+}
+.box-model p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    color: whitesmoke;
     
 }
