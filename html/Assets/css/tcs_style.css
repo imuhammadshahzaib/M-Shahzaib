@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #f11e25;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-top: 18px;
+    padding-bottom: 8px;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 150px;
+    margin-left: 100px;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    gap: 26px;
+    color: #ffc9d2;
+    margin-top: 20px;
+}
+nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+nav button{
+    padding: 4px 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 130px;
+    margin-top: 20px;
+    background-color: #ca1219;
+    color: whitesmoke;
+    border: none;
+    box-shadow: 0px 0px 0.5px black;
+}
+nav button:hover{
+    background-image: linear-gradient(to top , #ca1219 , #f11e25 ); 
+}
+/* crousel styling  */
+
+/* hide radio buttons */
+
+input[type="radio"]{
+    display: none;
+}
+
+.crousel{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 400px;
+}
+.crousel-inner{
+    display: flex;
+    width: 500%;
+    animation:transform  0.5s ease-in-out;
+
+}
+.crousel-item{
+    /* flex: 0 0 100%; */
+    
+}
+.crousel-item img{
+    width: 100%;
+    display: block;
+}
+/* for auto slide animation  */
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    20% { transform: translateX(-100%); }
+    30% { transform: translateX(-200%); }
+    60% { transform: translateX(-300%); }
+    80% { transform: translateX(-400%); }
+    100% { transform: translateX(0%); }
+}
+/* slide logics using radio buttons  */
+
+#slide1:checked ~ .crousel-inner { transform: translateX(0%);}
+#slide2:checked ~ .crousel-inner { transform: translateX(-100%);}
+#slide3:checked ~ .crousel-inner { transform: translateX(-200%);}
+#slide4:checked ~ .crousel-inner { transform: translateX(-300%);}
+#slide5:checked ~ .crousel-inner { transform: translateX(-400%);}
+
+/* Navigation Buttons */
+.navigation label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.navigation label:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}       
+
